@@ -11,7 +11,7 @@ API_KEY = os.environ.get('API_KEY')
 
 
 def google_url_shorten(url):
-    req_url = "https://www.googleapis.com/urlshortener/v1/url?" + API_KEY
+    req_url = "https://www.googleapis.com/urlshortener/v1/url?" + str(API_KEY)
     payload = {'longUrl': url}
     headers = {'content-type': 'application/json'}
     r = requests.post(req_url, data=json.dumps(payload), headers=headers)
