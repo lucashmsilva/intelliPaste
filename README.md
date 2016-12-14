@@ -1,5 +1,5 @@
 # inteliPaste
-inteliPaste uses a simple infinite loop to scan the clipboard to URLs and when it finds one, it request the Google URL shortener API to create a new shortened URL and writes it in the clipboard.
+inteliPaste uses a simple infinite loop to scan the clipboard for URLs and when it finds one, it request the Google URL shortener API to create a new shortened URL and writes it in the clipboard.
 
 ## Dependencies
 To have access to the clipboard, it uses the [pyperclip](https://github.com/asweigart/pyperclip) so it should be installed:
