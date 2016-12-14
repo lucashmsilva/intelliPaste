@@ -7,7 +7,7 @@ import requests
 import pyperclip
 
 API_KEY = os.environ.get('API_KEY')
-# API_KEY = "key=AIzaSyB5TfsLygRIzw8AvlrjlWc3wN2p8seT-0o"
+# API_KEY = ""
 
 
 def google_url_shorten(url):
